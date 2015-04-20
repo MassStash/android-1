@@ -7,6 +7,12 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="ms"
+           fetch="https://github.com/MassStash/" />
+
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
@@ -25,6 +31,10 @@
   </project>
 
   <project path="android" name="android" remote="omnirom" revision="android-5.0" />
+
+  <project path="kernel/htc/m8gpe" name="htc_m8_kernel_GPE_5.0.1" remote="ms" revision="recovery" />
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-12.1" />
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-5.0" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-5.0" groups="pdk" />
