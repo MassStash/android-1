@@ -7,6 +7,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="ms"
+           fetch="https://github.com/MassStash/" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
@@ -23,6 +26,8 @@
   <project path="build" name="android_build" remote="omnirom" revision="android-5.1" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+
+  <project path="kernel/htc/m8gpe" name="htc_m8_kernel_GPE_5.0.1" remote="ms" revision="recovery" />
 
   <project path="android" name="android" remote="omnirom" revision="android-5.1" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
