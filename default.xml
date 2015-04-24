@@ -30,7 +30,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="kernel/htc/m8gpe" name="htc_m8_kernel_GPE_5.0.1" remote="ms" revision="recovery" />
+  <project path="kernel/htc/m8gpe" name="htc_m8_kernel_GPE_5.0.1" remote="ms" revision="hypernova" />
   <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-12.1" />
 
   <project path="android" name="android" remote="omnirom" revision="android-5.1" />
